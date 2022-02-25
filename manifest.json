@@ -1,0 +1,10 @@
+{
+	"name":"HISQIS Super Secret Menu",
+	"description": "Automatically adds a link to the super secret menu in HISQIS.",
+	"version": "1.0",
+	"manifest_version": 3,
+	"content_scripts": [{
+		"matches": ["https://qisserver.uni-passau.de/*"],
+		"js": ["content.js"]
+	}]
+}
